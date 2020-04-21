@@ -11,11 +11,6 @@ def cypher(users):
 
 #Defines two variables, The one that we are gonna use for the result and the list
 	resultMessage = ""
-#	userInput = []
-
-#Creates a list with each individual letter of the message
-#	for i in range(len(users)):
-#		userInput += users[i]
 	
 #Creates loop that's gonna last as much as the lenght of the whole message
 #And is gonna replace each letter with a letter in the chyphered list
@@ -37,11 +32,6 @@ def decypher(users):
 
 #Defines two variables, The one that we are gonna use for the result and the list
 	resultMessage = ""
-#	userInput = []
-
-#Creates a list with each individual letter of the message
-#	for i in range(len(users)):
-#		userInput += users[i]
 	
 #Creates loop that's gonna last as much as the lenght of the whole message
 	for j in range(len(users)):
@@ -83,6 +73,3 @@ def getInformation():
 
 					#Main Part of the Script
 getInformation()
-
-
-
